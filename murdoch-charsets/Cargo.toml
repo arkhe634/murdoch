@@ -1,0 +1,18 @@
+[package]
+name = "murdoch-charsets"
+authors = ["arkhe634 <arkhe634@gmail.com>"]
+edition = "2018"
+version = "0.1.0"
+license = "MIT"
+description = "provides character-sets type defined by IANA"
+documentation = "https://docs.rs/murdoch-charsets"
+readme = "README.md"
+repository = "https://github.com/arkhe634/murdoch"
+keywords = [ "encoding", "web", "unicode", "charset" ]
+categories = [ "encoding", "web-programming", "internationalization" ]
+
+[features]
+default = []
+no_charset = []
+
+[dependencies]
